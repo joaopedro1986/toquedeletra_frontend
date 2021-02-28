@@ -1,0 +1,39 @@
+.ps-breadcrumb {
+    padding: 10px 0;
+    background-color: #eaeaea;
+
+    .breadcrumb {
+        margin-bottom: 0;
+        background-color: transparent;
+
+        li {
+            position: relative;
+            display: inline-block;
+            color: $color-1st;
+            font-size: 14px;
+
+            &:before {
+                content: '/';
+                display: inline-block;
+                vertical-align: middle;
+                padding-left: 0.5em;
+                margin-right: 0.5em;
+            }
+
+            a {
+                color: $color-text;
+                font-size: 14px;
+
+                &:hover {
+                    color: $color-1st;
+                }
+            }
+
+            &:first-child {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
+}
