@@ -55,7 +55,7 @@ class BlogWithLeftSidebar extends React.Component {
         return (
             <LayoutDefault title="Category">
                 <main className="ps-page ps-page--blog">
-                    <BlogHero />
+                    <BlogHero title={query.slug}/>
                     <div className="container">
                         <section className="ps-blog--sidebar">
                             <div className="ps-section__left">

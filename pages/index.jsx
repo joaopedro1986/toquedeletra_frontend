@@ -5,6 +5,7 @@ import DefaultPostsOnTop from '~/components/partials/homepage/default/DefaultPos
 import ExploreTopics from '~/components/partials/common/ExploreTopics';
 import LayoutHomeDefault from '~/components/layouts/LayoutHomeDefault';
 
+
 const Index = () => {
     return (
         <LayoutHomeDefault title="Creative React Blog">

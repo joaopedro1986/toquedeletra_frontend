@@ -72,9 +72,6 @@ class ExploreTopics extends Component {
                 <div>
                     <TopicDefault img="/static/img/topics/olympic.png" title="Olimpiadas" />
                 </div>
-                <div>
-                    <TopicDefault img="/static/img/topics/6.jpg" title="Family & Pets" />
-                </div>
             </Slider>
         );
 

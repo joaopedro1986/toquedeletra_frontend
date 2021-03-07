@@ -9,7 +9,7 @@ const ClassicLayoutLeft = () => {
     return (
         <LayoutDefault title="Blog classic layout left">
             <main className="ps-page ps-page--blog">
-                <BlogHero title="Classic layout Left" />
+                <BlogHero title="Futebol Nacional" />
                 <div className="container">
                     <section className="ps-blog--sidebar ps-blog--classic left">
                         <div className="ps-section__left">

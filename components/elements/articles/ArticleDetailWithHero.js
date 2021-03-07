@@ -22,7 +22,7 @@ const ArticleDetailWithHero = ({ post }) => {
             post.tags.replace(/,/g, '');
             tagItems = post.tags.split(',');
         }
-
+      
         if (post.wide_thumbnail) {
             wideThumbnail = `${baseUrl}${post.wide_thumbnail.url}`;
         } else {
