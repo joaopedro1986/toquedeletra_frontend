@@ -49,7 +49,7 @@ const FooterDefault = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="ps-footer__copyright">
-                                <p>&copy;2020 Diaryforlife. All Rights Reserved.</p>
+                                <p>&copy;2021 Enciclopédia do do Desporto em Português.</p>
                             </div>
                         </div>
                         <div className="col-md-6">

@@ -19,7 +19,7 @@ const FooterSimple = () => {
                         <div className="col-md-6">
                             <div className="ps-footer__copyright">
                                 <p>
-                                    &copy; 2021. Copyright <strong>Diaryforlife</strong>. Allright reverved.
+                                <p>&copy;2021 Enciclopédia do do Desporto em Português.</p>
                                 </p>
                             </div>
                         </div>

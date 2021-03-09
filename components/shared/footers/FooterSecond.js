@@ -32,8 +32,7 @@ const FooterSecond = ({ classes }) => {
                         <div className="col-md-6">
                             <div className="ps-footer__copyright">
                                 <p>
-                                    &copy; 2020 Copyright{' '}
-                                    <a href="http://pantera-react.diaryforlife.com">Diaryforlife</a>. Allright reverved.
+                                <p>&copy;2021 Enciclopédia do do Desporto em Português.</p>
                                 </p>
                             </div>
                         </div>

@@ -7,9 +7,9 @@ import FooterSecond from '~/components/shared/footers/FooterSecond';
 const LayoutHome = ({ children, title }) => {
     let titleView;
     if (title !== null) {
-        titleView = process.env.title + ' | ' + title;
+        titleView =  title;
     } else {
-        titleView = process.env.title + ' | ' + process.env.titleDescription;
+        titleView =  process.env.titleDescription;
     }
 
     return (

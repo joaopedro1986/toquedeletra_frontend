@@ -8,12 +8,11 @@ import LayoutHomeDefault from '~/components/layouts/LayoutHomeDefault';
 
 const Index = () => {
     return (
-        <LayoutHomeDefault title="Creative React Blog">
+        <LayoutHomeDefault title="Revista da Enciclopédia do Desporto em Português">
             <main id="homepage-primary">
                 <DefaultPostsOnTop collectionSlug="posts-on-top-banner"/>
                 <div className="container">
                     <ExploreTopics/>
-                    <Subscribe/>
                     <HomePostsWithSidebar/>
                 </div>
             </main>

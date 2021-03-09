@@ -1,7 +1,7 @@
 import axios from 'axios';
 export const isGrapql = true;
 /*const baseDomain = 'http://api.diaryforlife.info';*/
-const baseDomain = 'http://localhost:1337';
+const baseDomain = 'https://evening-fjord-80887.herokuapp.com';
 const authorization_prefix = 'Bearer ';
 export const customHeaders = {
     Accept: 'application/json',

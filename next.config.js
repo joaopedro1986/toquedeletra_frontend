@@ -3,8 +3,8 @@
 const nextSettings = {
     trailingSlash: false,
     env: {
-        title: 'Pantera',
-        titleDescription: 'Creative React Blog Template',
+        title: 'Toque de Letra',
+        titleDescription: 'Revista da Enciclopédia do Desporto em Português',
     }
 };
 
