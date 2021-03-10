@@ -27,7 +27,7 @@ const FooterSimple = () => {
                             <div className="ps-footer__links">
                                 <ul className="menu--footer">
                                     <li>
-                                        <Link href="/page/about-us">
+                                        <Link href="/page/about/about-us-2">
                                             <a>About Us</a>
                                         </Link>
                                     </li>

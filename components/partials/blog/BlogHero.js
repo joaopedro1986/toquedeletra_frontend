@@ -6,7 +6,7 @@ const BlogHero = ({ title }) => {
     if (title) {
         componentTitle = title;
     } else {
-        componentTitle = 'Life Style';
+        componentTitle = '';
     }
 
 

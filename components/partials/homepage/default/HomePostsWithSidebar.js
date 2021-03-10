@@ -7,7 +7,7 @@ const HomePostsWithSidebar = () => {
     return (
         <section className="ps-section--classic ps-home-our-story">
             <div className="ps-section__header">
-                <h3>Our Story</h3>
+                <h3>Últimas Publicações</h3>
             </div>
             <div className="ps-section__content">
                 <div className="ps-blog--sidebar">

@@ -9,7 +9,6 @@ const HomeSidebar = () => {
     return (
         <div className="ps-sidebar ps-sidebar--home">
             {/* <WidgetAuthor />*/}
-            <WidgetSearch />
             <WidgetRecentPosts collectionSlug="home-featured-posts" />
             <WidgetCategories />
             <WidgetFollowMe />

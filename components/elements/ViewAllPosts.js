@@ -5,7 +5,7 @@ const ViewAllPosts = () => {
     return (
         <div className="ps-section__pagination ps-loadmore">
             <Link href="/blog">
-                <a className="effect--underline">View All Posts</a>
+                <a className="effect--underline">Ver todas as histórias</a>
             </Link>
         </div>
     );

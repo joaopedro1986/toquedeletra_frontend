@@ -78,7 +78,7 @@ class ExploreTopics extends Component {
         return (
             <section className="ps-section--classic ps-explore-topics">
                 <div className="ps-section__header">
-                    <h3>Explore Topics</h3>
+                    <h3>Modalidades</h3>
                 </div>
                 <div className="ps-section__content">{postViewItems && postViewItems}</div>
             </section>

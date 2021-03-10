@@ -3,7 +3,7 @@ import React from 'react';
 const ModuleAboutIntro = () => (
     <div className="ps-block--about">
         <div className="ps-block__left">
-            <h4>I'm John Doe</h4>
+            <h4>Teste</h4>
             <p>Introduce myself</p>
         </div>
         <div className="ps-block__content">
