@@ -9,7 +9,7 @@ const SidebarDark = () => {
         <aside className="ps-sidebar--dark">
             <div className="ps-sidebar__header">
                 <Logo color="white"/>
-                <p>Creative React Blog Template</p>
+                <p>Toque de Letra</p>
             </div>
             <div className="ps-sidebar__content">
                 <div className="ps-sidebar__menu">
@@ -17,7 +17,7 @@ const SidebarDark = () => {
                 </div>
                 <div className="ps-sidebar__bottom">
                     <SocialLinksFeather/>
-                    <p>&copy; 2021. Design by Diaryforlife.</p>
+                    <p>&copy; 2021. Enciclopédia do Desporto em Português</p>
                 </div>
             </div>
         </aside>

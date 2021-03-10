@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const StyleSheets = () => (
     <Head>
-        <title>Pantera Blog - React template</title>
+        <title>Toque de Letra | Enciclopédia do Desporto em Português</title>
         <link rel="shortcut icon" href="/static/favicon.png" />
         <link rel="icon" href="/static/favicon.png" sizes="32x32" />
         <link rel="icon" href="/static/favicon.png" sizes="192x192" />
@@ -14,7 +14,7 @@ const StyleSheets = () => (
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="author" content="diaryforlife" />
         <meta name="keywords" content="Blog, React, nextjs" />
-        <meta name="description" content="Pentera - React Blog Template" />
+        <meta name="description" content="Toque de Letra | Enciclopédia do Desporto em Português" />
         <link
             href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
