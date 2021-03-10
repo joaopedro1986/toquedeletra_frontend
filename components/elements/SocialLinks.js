@@ -6,21 +6,6 @@ const SocialLinks = () => {
             id: '1',
             icon: "fa fa-facebook",
             href: "#"
-        },
-        {
-            id: '2',
-            icon: "fa fa-twitter",
-            href: "#"
-        },
-        {
-            id: '3',
-            icon: "fa fa-youtube-play",
-            href: "#"
-        },
-        {
-            id: '4',
-            icon: "fa fa-linkedin",
-            href: "#"
         }
     ]
     const linksArea = links.map(item => (

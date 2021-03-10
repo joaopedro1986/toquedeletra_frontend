@@ -52,9 +52,9 @@ const InstagramImages = () => {
     return (
         <div className="ps-section--instagram">
             <div className="ps-section__header">
-                <p>Follow me on Instagram</p>
+                <p>Segue-nos no Instagram</p>
                 <h3>
-                    <i className="fa fa-instagram"></i>diaryforlife
+                    <i className="fa fa-instagram"></i>enciclopediadodesportopt
                 </h3>
             </div>
             <div className="ps-section__content">
