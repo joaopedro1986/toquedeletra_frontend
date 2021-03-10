@@ -9,33 +9,47 @@
             "subMenu": [
                 {
                     "id": "1",
-                    "text": "Home Default",
-                    "url": "/"
+                    "text": "Futebol",
+                    "url": "/category/futebol",
+                    "extraClass": "menu-item-has-children",
+                    "subClass": "sub-menu",
+                    "subMenu": [
+                        {
+                            "id": "1",
+                            "text": "Futebol Nacional",
+                            "url": "/category/futebol"
+                        },
+                        {
+                            "id": "2",
+                            "text": "Futebol Europeu",
+                            "url": "/category/futebol-europeu"
+                        },
+                        {
+                            "id": "3",
+                            "text": "Futebol Sul-Americano",
+                            "url": "/category/futebol"
+                        }
+                    ]
                 },
                 {
                     "id": "2",
-                    "text": "Home Grid",
-                    "url": "/homepage/home-grid"
+                    "text": "Estádios",
+                    "url": "/"
                 },
                 {
                     "id": "3",
-                    "text": "Home Grid With Sidebar",
-                    "url": "/homepage/home-grid-with-sidebar"
+                    "text": "Jogadores Lendários",
+                    "url": "/"
                 },
                 {
                     "id": "4",
-                    "text": "Home Minimalist",
-                    "url": "/homepage/home-minimalist"
+                    "text": "Partidas Históricas",
+                    "url": "/"
                 },
                 {
-                    "id": "5",
-                    "text": "Home Personal",
-                    "url": "/homepage/home-personal"
-                },
-                {
-                    "id": "5",
-                    "text": "Home sidebar left",
-                    "url": "/homepage/home-sidebar-left"
+                    "id": "4",
+                    "text": "Equipas Eternas",
+                    "url": "/"
                 }
             ]
         },
@@ -122,8 +136,8 @@
         },
         {
             "id": "5",
-            "text": "Sobre Nos",
-            "url": "/page/contact-us"
+            "text": "Sobre Nós",
+            "url": "/page/about/about-us-2"
         }
     ]
 }

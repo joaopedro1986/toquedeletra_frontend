@@ -48,7 +48,7 @@ const ArticleDetailWithHero = ({ post }) => {
 
     return (
         <div className="ps-post--detail ps-post--detail-with-hero">
-            <div className="ps-post__thumbnail" style={{ backgroundImage: `url(${wideThumbnail})` }}></div>
+            <div className="ps-post__thumbnail" style={{ backgroundImage: `url(${post.url})` }}></div>
             <div className="ps-post__wrapper">
                 <div className="ps-post__header">
                     <div className="ps-post__meta">
@@ -60,17 +60,13 @@ const ArticleDetailWithHero = ({ post }) => {
                     <div className="ps-document">
                         <div dangerouslySetInnerHTML={{ __html: newPostContent }} />
                         <div className="ps-post__footer">
-                            <ModuleArticleTags tags={tagItems} />
                             <ModuleArticleSocialSharing />
                         </div>
                     </div>
                     {/*<div className="ps-post__navigation">
                         <ModuleNextOrPreviosPost />
                     </div>*/}
-                    <div className="ps-post__comments">
-                        <ModuleArticleCommentListing />
-                        <ModuleArticleCommentForm />
-                    </div>
+                   
                 </div>
             </div>
         </div>

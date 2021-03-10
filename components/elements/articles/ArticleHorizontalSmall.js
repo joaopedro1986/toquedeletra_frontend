@@ -8,7 +8,7 @@ const ArticleHorizontalSmall = ({post}) => {
     if (post) {
         if (post.thumbnail !== null) {
             partialThumbnail = <LazyLoad>
-                    <img src={`${baseUrl}${post.thumbnail.url}`}/>
+                    <img src={`${post.url}`}/>
                 </LazyLoad>;
         }
 

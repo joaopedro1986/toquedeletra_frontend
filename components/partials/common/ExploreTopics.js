@@ -67,7 +67,7 @@ class ExploreTopics extends Component {
                     <TopicDefault img="/static/img/topics/f1.jpg" title="Motores" />
                 </div>
                 <div>
-                    <TopicDefault img="/static/img/topics/tenis.jpg" title="Tenis" />
+                    <TopicDefault img="/static/img/topics/tenis.jpg" title="Tenis" url={"/category/tenis"}/>
                 </div>
                 <div>
                     <TopicDefault img="/static/img/topics/olympic.png" title="Olimpiadas" />

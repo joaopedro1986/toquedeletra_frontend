@@ -34,7 +34,7 @@ const ArticlePrimary = ({ post, classes }) => {
     return (
         <article
             className={`ps-post ps-post--fullscreen bg--cover ${classes && classes}`}
-            style={{ backgroundImage: `url(${baseUrl}${post.wide_thumbnail.url})` }}
+            style={{ backgroundImage: `url(${post.url})` }}
         >
             <Link href="/post/[slug]" as={`/post/${post.slug}`}>
                 <a className="ps-post__overlay"></a>

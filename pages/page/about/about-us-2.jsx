@@ -8,43 +8,43 @@ const AboutUs2Page = () => {
         {
             id: 1,
             text: 'Homepage',
-            url: '/'
+            url: '/',
         },
         {
             id: 2,
-            text: 'About us 2',
-            url: '/'
-        }
+            text: 'Sobre Nós',
+            url: '/',
+        },
     ];
 
     return (
         <LayoutDefault title="About us 2">
             <main className="ps-page">
-                <BreadCrumb data={breadcrumb}/>
+                <BreadCrumb data={breadcrumb} />
                 <div className="ps-page__content">
                     <div className="container">
                         <div className="ps-block--about-2">
                             <div className="ps-block__thumbnail">
-                                <img src="/static/img/about.jpg" alt=""/>
+                                <img src="/static/img/edp.jpg" alt="" />
                             </div>
                             <div className="ps-block__content">
-                                <h3>Hi, I'm Erwin Cheryl</h3>
-                                <p><strong>I'am blogger, photographer & developer.</strong></p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis ea sunt
-                                    voluptatum? Assumenda atque commodi consectetur cum cumque, dolore doloremque eaque
-                                    ipsam magni optio sit voluptatum! Libero, optio totam!</p>
-                                <p> On refusa continuar payar custosi traductores. At solmen va esser necessi far
-                                    uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce,
-                                    li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent
-                                    lingues. </p>
+                                <h3>Toque de Letra</h3>
+                                <p>
+                                    <strong>História e Desporto</strong>
+                                </p>
+                                <p>
+                                    Esta revista tem como principal objectivo recuperar as histórias do desporto e
+                                    disponibilizar os seus conteudos sempre na língua portuguesa
+                                </p>
+                                <p>
+                                    {' '}
+                                    É dado por nós especial destaque ao futebol mas nunca nos esquecemos das outras
+                                    modalidades desde individuais, colectivas ou motorizadas{' '}
+                                </p>
                             </div>
                             <div className="ps-block__name">
-                                <p>Best Regard,</p>
-                                <h4>
-                                    <Link href="/">
-                                        <a>Erwin Cheryl</a>
-                                    </Link>
-                                </h4>
+                                <p>Os meus cumprimentos,</p>
+                                <h4>João Pedro</h4>
                             </div>
                         </div>
                     </div>
