@@ -4,6 +4,10 @@ import {baseUrl} from "~/repositories/Repository";
 import LazyLoad from 'react-lazyload';
 
 const ArticleHorizontalSmall = ({post}) => {
+
+    let date = new Date(post.created_at).toString();
+    let postDateTemp = date.split(" ");
+
     let partialThumbnail, partialCategories;
     if (post) {
         if (post.thumbnail !== null) {
@@ -28,7 +32,7 @@ const ArticleHorizontalSmall = ({post}) => {
                             </Link>
                         </h4>
                         <div className="ps-post__meta">
-                            <span className="ps-post__posted">Jul 12, 2020</span>
+                            <span className="ps-post__posted">{postDateTemp[1]} {postDateTemp[2]} {postDateTemp[3]}</span>
                         </div>
                     </div>
                 </div>

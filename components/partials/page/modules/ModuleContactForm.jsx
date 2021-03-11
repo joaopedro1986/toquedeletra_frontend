@@ -8,27 +8,27 @@ const ModuleContactForm = () => (
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                             <div className="form-group">
-                                <label>Name</label>
+                                <label>Nome</label>
                                 <input className="form-control" type="text" placeholder=""/>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                             <div className="form-group">
-                                <label>Emai</label>
+                                <label>E-mail</label>
                                 <input className="form-control" type="email" placeholder=""/>
                             </div>
                         </div>
                     </div>
                     <div className="form-group">
-                        <label>Subject</label>
+                        <label>Assunto</label>
                         <input className="form-control" type="email" placeholder=""/>
                     </div>
                     <div className="form-group">
-                        <label>Your Message</label>
+                        <label>Mensagem</label>
                         <textarea className="form-control" rows="6" placeholder=""/>
                     </div>
                     <div className="form-group ps-form__submit">
-                        <button className="ps-btn ps-btn--black">Submit</button>
+                        <button className="ps-btn ps-btn--black">Enviar</button>
                     </div>
                 </form>
             </div>

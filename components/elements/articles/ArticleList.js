@@ -5,7 +5,10 @@ import LazyLoad from 'react-lazyload';
 import ModulePostAuthorSmall from '~/components/elements/articles/modules/ModulePostAuthorSmall';
 
 const ArticleList = ({ post }) => {
-    console.log(post);
+
+    let date = new Date(post.created_at).toString();
+    let postDateTemp = date.split(" ");
+
     let partialThumbnail, partialCategories;
     if (post) {
         if (post.thumbnail !== null) {
@@ -42,7 +45,7 @@ const ArticleList = ({ post }) => {
                         </h4>
                         <div className="ps-post__meta">
                             <ModulePostAuthorSmall author={post.author} />
-                            <span className="ps-post__posted">Jul 12, 2020</span>
+                            <span className="ps-post__posted">{postDateTemp[1]} {postDateTemp[2]} {postDateTemp[3]}</span>
                         </div>
                         <div className="ps-post__short-desc">
                             <p>{post.description && post.description.slice(0, 100) + '...'}</p>

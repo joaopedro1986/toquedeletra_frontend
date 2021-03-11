@@ -28,12 +28,12 @@ const FooterSimple = () => {
                                 <ul className="menu--footer">
                                     <li>
                                         <Link href="/page/about/about-us-2">
-                                            <a>About Us</a>
+                                            <a>Sobre Nós</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/page/contact-us">
-                                            <a>Contact Us</a>
+                                            <a>Contacto</a>
                                         </Link>
                                     </li>
                                 </ul>

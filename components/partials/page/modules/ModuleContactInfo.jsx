@@ -4,22 +4,17 @@ const ModuleContactInfo = () => (
     <div className="ps-contact__info">
         <div>
             <div className="ps-section__header">
-                <h3>Contact Us</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/> Ducimus eos impedit nesciunt
-                    voluptates magni vero itaque.</p>
+                <h3>Contactos</h3>
+               
             </div>
             <div className="ps-contact__info-content">
                 <figure>
-                    <figcaption>Address</figcaption>
-                    <p>112 Whiblue, Road 112, London, UK</p>
-                </figure>
-                <figure>
                     <figcaption>Email</figcaption>
-                    <p><a href="#">hello@pantera.info</a></p>
+                    <p><a href="#">enciclpediadodesportopt@gmail.com</a></p>
                 </figure>
                 <figure className="phone">
-                    <figcaption>Phone</figcaption>
-                    <p><strong>+82 112 99872</strong><br/><strong>+82 112 11234</strong></p>
+                    <figcaption>Telefone</figcaption>
+                    <p><strong>932091654</strong></p>
 
                 </figure>
             </div>

@@ -5,6 +5,9 @@ import LazyLoad from 'react-lazyload';
 import ModulePostAuthorSmall from '~/components/elements/articles/modules/ModulePostAuthorSmall';
 
 const ArticlePrimary = ({ post, classes }) => {
+    let date = new Date(post.created_at).toString();
+    let postDateTemp = date.split(" ");
+
     let partialThumbnail, partialCategories;
     const [loading, setLoading] = useState(false);
     if (post) {
@@ -44,7 +47,7 @@ const ArticlePrimary = ({ post, classes }) => {
                 <h4 className="ps-post__title">{post.title}</h4>
                 <div className="ps-post__meta">
                  {/*   <ModulePostAuthorSmall />*/}
-                    <span>Feb 28, 2021</span>
+                     <span>{postDateTemp[1]} {postDateTemp[2]} {postDateTemp[3]}</span>
                 </div>
                 <Link href="/post/[slug]" as={`/post/${post.slug}?layout=sidebar`}>
                     <a className="ps-post__morelink">Clique aqui</a>

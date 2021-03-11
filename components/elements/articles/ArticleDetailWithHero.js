@@ -9,12 +9,13 @@ import ModuleArticleCommentListing from '~/components/elements/articles/modules/
 const ArticleDetailWithHero = ({ post }) => {
     console.log(post);
     let partialCategories, newPostContent, tagItems, wideThumbnail;
+    let date = new Date(post.created_at).toString();
+    let postDateTemp = date.split(" ");
+    
+    
+    
 
-    
-    
-
-    
-    
+  
     
 
     if (post) {
@@ -22,7 +23,7 @@ const ArticleDetailWithHero = ({ post }) => {
             post.tags.replace(/,/g, '');
             tagItems = post.tags.split(',');
         }
-      
+
         if (post.wide_thumbnail) {
             wideThumbnail = `${baseUrl}${post.wide_thumbnail.url}`;
         } else {
@@ -52,7 +53,7 @@ const ArticleDetailWithHero = ({ post }) => {
             <div className="ps-post__wrapper">
                 <div className="ps-post__header">
                     <div className="ps-post__meta">
-                        <span>{post.created_at.substr(0,10)}</span>
+                        <span>{postDateTemp[1]} {postDateTemp[2]} {postDateTemp[3]}</span>
                     </div>
                     <h2>{post.title}</h2>
                 </div>
@@ -66,7 +67,6 @@ const ArticleDetailWithHero = ({ post }) => {
                     {/*<div className="ps-post__navigation">
                         <ModuleNextOrPreviosPost />
                     </div>*/}
-                   
                 </div>
             </div>
         </div>
