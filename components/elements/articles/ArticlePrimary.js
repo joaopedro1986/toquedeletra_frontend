@@ -49,7 +49,7 @@ const ArticlePrimary = ({ post, classes }) => {
                  {/*   <ModulePostAuthorSmall />*/}
                      <span>{postDateTemp[1]} {postDateTemp[2]} {postDateTemp[3]}</span>
                 </div>
-                <Link href="/post/[slug]" as={`/post/${post.slug}?layout=sidebar`}>
+                <Link href="/post/[slug]" as={`/post/${post.slug}`}>
                     <a className="ps-post__morelink">Clique aqui</a>
                 </Link>
 
