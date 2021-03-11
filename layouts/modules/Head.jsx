@@ -4,15 +4,15 @@ import Head from 'next/head';
 const StyleSheets = () => (
     <Head>
         <title>Toque de Letra | Enciclopédia do Desporto em Português</title>
-        <link rel="shortcut icon" href="/static/favicon.png" />
-        <link rel="icon" href="/static/favicon.png" sizes="32x32" />
-        <link rel="icon" href="/static/favicon.png" sizes="192x192" />
-        <link rel="apple-touch-icon-precomposed" href="/static/favicon.png" />
+        <link rel="shortcut icon" href="/static/edp.png" />
+        <link rel="icon" href="/static/edp.png" sizes="32x32" />
+        <link rel="icon" href="/static/edp.png" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="/static/edp.png" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="author" content="diaryforlife" />
+        <meta name="author" content="João Pedro" />
         <meta name="keywords" content="Blog, React, nextjs" />
         <meta name="description" content="Toque de Letra | Enciclopédia do Desporto em Português" />
         <link
