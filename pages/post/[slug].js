@@ -74,7 +74,6 @@ class PostDetailPage extends React.Component {
             <LayoutDefault title="Post Detail">
                 <main className="ps-page ps-page--single-post">
                     {articleDetail}
-                    ant-back-top
                 </main>
             </LayoutDefault>
         );
