@@ -11,7 +11,7 @@ const ArticleList = ({ post }) => {
 
     let partialThumbnail, partialCategories;
     if (post) {
-        if (post.thumbnail !== null) {
+        if (post.url !== null) {
             partialThumbnail = (
                 <LazyLoad>
                     <img src={`${post.url}`} alt="img" />
@@ -53,7 +53,7 @@ const ArticleList = ({ post }) => {
                     </div>
                     <div className="ps-post__footer">
                         <Link href="/post/[slug]" as={`/post/${post.slug}`}>
-                            <a className="ps-post__morelink effect--underline">Ler</a>
+                            <a className="ps-post__morelink effect--underline">Ler +</a>
                         </Link>
                     </div>
                 </div>

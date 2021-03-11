@@ -74,7 +74,7 @@ class PostDetailPage extends React.Component {
             <LayoutDefault title="Post Detail">
                 <main className="ps-page ps-page--single-post">
                     {articleDetail}
-                    <RelatedPosts slug="home-featured-posts" />
+                    ant-back-top
                 </main>
             </LayoutDefault>
         );

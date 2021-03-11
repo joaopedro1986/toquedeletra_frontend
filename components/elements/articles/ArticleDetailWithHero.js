@@ -5,6 +5,9 @@ import ModuleArticleSocialSharing from '~/components/elements/articles/modules/M
 import ModuleArticleTags from '~/components/elements/articles/modules/ModuleArticleTags';
 import ModuleArticleCommentForm from '~/components/elements/articles/modules/ModuleArticleCommentForm';
 import ModuleArticleCommentListing from '~/components/elements/articles/modules/ModuleArticleCommentListing';
+import LazyLoad from 'react-lazyload';
+
+
 
 const ArticleDetailWithHero = ({ post }) => {
     console.log(post);
@@ -49,7 +52,10 @@ const ArticleDetailWithHero = ({ post }) => {
 
     return (
         <div className="ps-post--detail ps-post--detail-with-hero">
-            <div className="ps-post__thumbnail" style={{ backgroundImage: `url(${post.url})` }}></div>
+            <LazyLoad>
+                <div className="ps-post ps-post--fullscreen bg--cover" style={{ backgroundImage: `url(${post.url})` }}></div>
+            </LazyLoad>
+            
             <div className="ps-post__wrapper">
                 <div className="ps-post__header">
                     <div className="ps-post__meta">
