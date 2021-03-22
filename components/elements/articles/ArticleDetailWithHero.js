@@ -53,7 +53,7 @@ const ArticleDetailWithHero = ({ post }) => {
     return (
         <div className="ps-post--detail ps-post--detail-with-hero">
             <LazyLoad>
-                <div className="ps-post ps-post--fullscreen bg--cover" style={{ backgroundImage: `url(${post.url})` }}></div>
+                <div className="ps-post__thumbnail bg--cover" style={{ backgroundImage: `url(${post.url})` }}></div>
             </LazyLoad>
             
             <div className="ps-post__wrapper">
@@ -67,7 +67,7 @@ const ArticleDetailWithHero = ({ post }) => {
                     <div className="ps-document">
                         <div dangerouslySetInnerHTML={{ __html: newPostContent }} />
                         <div className="ps-post__footer">
-                            <ModuleArticleSocialSharing />
+                            <ModuleArticleSocialSharing quote={post.slug} />
                         </div>
                     </div>
                     {/*<div className="ps-post__navigation">

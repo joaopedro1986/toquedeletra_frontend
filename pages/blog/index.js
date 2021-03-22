@@ -11,7 +11,6 @@ const BlogDefaultPage = () => {
                 <BlogHero/>
                 <div className="container">
                     <BlogSidebar layout="right"/>
-                    <Subscribe/>
                 </div>
             </main>
         </LayoutDefault>
