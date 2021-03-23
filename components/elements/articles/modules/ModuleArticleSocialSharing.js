@@ -1,28 +1,43 @@
 import React from 'react';
-import { FacebookShareButton, FacebookIcon, WhatsappShareButton, WhatsappIcon } from 'react-share';
+import {
+    FacebookShareButton,
+    FacebookIcon,
+    WhatsappShareButton,
+    WhatsappIcon,
+    LinkedinShareButton,
+    LinkedinIcon,
+    TwitterShareButton,
+    TwitterIcon,
+} from 'react-share';
 
-const ModuleArticleSocialSharing = ({ quote }) => (
-    <p className="ps-post__sharing">
-        <span className="pr-3">Share this:</span>
-        <FacebookShareButton url={'https://toquedeletra-frontend.vercel.app/post/' + quote}>
-            <FacebookIcon
-                size={'2rem'} // You can use rem value instead of numbers
-                round
-            />
-        </FacebookShareButton>
-        <WhatsappShareButton url={'https://toquedeletra-frontend.vercel.app/post/' + quote} separator=":: ">
-            <WhatsappIcon size={'2rem'} round />
-        </WhatsappShareButton>
-        <a href="#">
-            <i className="fa fa-twitter"></i>
+const ModuleArticleSocialSharing = ({ linkSocialMedia }) => {
+    let link = 'https://toquedeletra-frontend.vercel.app/post/' + linkSocialMedia;
+
+    return (
+        <p className="ps-post__sharing">
+            <span className="pr-3">Share this:</span>
+            <FacebookShareButton url={link} link={link}>
+                <FacebookIcon
+                    size={'2rem'} // You can use rem value instead of numbers
+                    round
+                />
+            </FacebookShareButton>
+            <WhatsappShareButton url={link} separator=":: ">
+                <WhatsappIcon size={'2rem'} round />
+            </WhatsappShareButton>
+            <TwitterShareButton url={link}>
+                <TwitterIcon size={'2rem'} round />
+            </TwitterShareButton>
+            <LinkedinShareButton url={link} windowWidth={750} windowHeight={600}>
+                <LinkedinIcon size={'2rem'} round />
+            </LinkedinShareButton>
+
+            <a href={"http://www.facebook.com/share.php?u="+link}
+                target="_blank">
+            <i className="fa fa-facebook"></i>
         </a>
-        <a href="#">
-            <i className="fa fa-google-plus"></i>
-        </a>
-        <a href="#">
-            <i className="fa fa-linkedin"></i>
-        </a>
-    </p>
-);
+        </p>
+    );
+};
 
 export default ModuleArticleSocialSharing;

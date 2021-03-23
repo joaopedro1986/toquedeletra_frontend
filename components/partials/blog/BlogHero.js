@@ -9,16 +9,23 @@ const BlogHero = ({ title }) => {
         componentTitle = '';
     }
 
-
-   if (componentTitle === "futebol" || "futebol-europeu") {
-        urlImage = `url(/static/img/hero/futebol.jpg)`
-    } 
-    if (componentTitle === "tenis") {
-        urlImage = `url(/static/img/hero/tenis.jpg)`
+    switch (componentTitle) {
+        case 'futebol':
+            urlImage = `url(/static/img/hero/futebol.jpg)`;
+            break;
+        case 'futebol-europeu':
+            urlImage = `url(/static/img/hero/puskas.jpg)`;
+            break;
+        case 'tenis':
+            urlImage = `url(/static/img/hero/tenis.jpg)`;
+            break;
+        case 'Contacto':
+            urlImage = `url(/static/img/hero/sports.jpg)`;
+            break;
     }
+
     return (
-        <div className="ps-page__header bg--cover" 
-        style={{  backgroundImage: urlImage }}>
+        <div className="ps-page__header bg--cover" style={{ backgroundImage: urlImage }}>
             <div className="container">
                 <h3 className="text-uppercase">{componentTitle}</h3>
             </div>

@@ -51,7 +51,7 @@ const WidgetRecentPosts = ({ collectionSlug }) => {
     }
     return (
         <aside className="ps-widget ps-widget--popular-posts">
-            <h4 className="ps-widget__heading"><span>Recent Posts</span></h4>
+            <h4 className="ps-widget__heading"><span>Publicações Recentes</span></h4>
             <div className="ps-widget__content">
                 {postsView}
             </div>

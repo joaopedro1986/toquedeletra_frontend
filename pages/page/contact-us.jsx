@@ -17,7 +17,7 @@ const ContactUsPage = () => {
     return (
         <LayoutDefault title="Contact Us">
             <main className="ps-page">
-                <BlogHero title="Contact Us" />
+                <BlogHero title="Contacto" />
                 <div className="ps-page__content">
                     <section className="ps-contact">
                         <div className="container">

@@ -67,7 +67,7 @@ const ArticleDetailWithHero = ({ post }) => {
                     <div className="ps-document">
                         <div dangerouslySetInnerHTML={{ __html: newPostContent }} />
                         <div className="ps-post__footer">
-                            <ModuleArticleSocialSharing quote={post.slug} />
+                            <ModuleArticleSocialSharing linkSocialMedia={post.slug} />
                         </div>
                     </div>
                     {/*<div className="ps-post__navigation">
